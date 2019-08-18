@@ -27,7 +27,7 @@ class App extends Component {
 
   uploadBookings = () => {
     const formData = new FormData();
-    this.state.files.map((_, i) => {
+    this.state.forEach((_, i) => {
       formData.append(`file${i}`, this.state.files[i]);
     });
 
