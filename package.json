@@ -5,7 +5,12 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "express-fileupload": "^1.1.5",
+    "interactjs": "^1.5.4",
+    "moment": "^2.24.0",
+    "papaparse": "^5.0.2",
     "react": "^16.4.2",
+    "react-calendar-timeline": "^0.26.1",
     "react-dom": "^16.4.2",
     "react-dropzone": "^5.0.0",
     "react-scripts": "1.1.4"
